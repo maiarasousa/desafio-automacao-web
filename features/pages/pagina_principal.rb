@@ -2,7 +2,7 @@ class PaginaPrincipal
     include Capybara::DSL
 
     def load
-        visit "https://www.kabum.com.br/"
+        visit "https://marcelodebittencourt.com/demoprestashop/"
     end
 
     

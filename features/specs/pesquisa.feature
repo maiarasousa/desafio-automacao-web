@@ -17,9 +17,9 @@ Funcionalidade: Pesquisar produto
     Então valido o resultado do "<produto>"
 
     Exemplos:
-      | produto |
-      | mouse   |
-      | iphone  |
+      | produto  |
+      | notebook |
+      | the best |
 
 
 

@@ -1,15 +1,13 @@
-Dado('escolho um item da lista de resultados') do
-  pending # Write code here that turns the phrase above into concrete actions
-end
-
 Quando('confirmo o produto para o carrinho') do
-  pending # Write code here that turns the phrase above into concrete actions
+  @pesquisa.confirmar_carrinho
 end
 
-Quando('escolho outro produto na lista de resultados') do
-  pending # Write code here that turns the phrase above into concrete actions
+Quando('escolho outro produto {string} na lista de resultados') do |produto| 
+  @pesquisa.busca(produto)
+  @produto2 = @pesquisa.comprar_produto
+  step 'confirmo o produto para o carrinho'
 end
 
 Então('valido que os produtos foram adicionados com sucesso') do
-  pending # Write code here that turns the phrase above into concrete actions
+  @resultados.validar_resultado(@produto1,@produto2)
 end
