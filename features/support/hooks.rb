@@ -4,12 +4,15 @@ Before do
   @resultados = Resultados.new
 end
 
-After do
-  temp_shot = page.save_screenshot("logs/temp_screenshot.png")
+After do |scenario|
+  name = scenario.name
+  temp_shot = page.save_screenshot("allure-results/evidences/#{name}/temp_screenshot.png")
   
   Allure.add_attachment(
-    name: "Screenshot",
+    name: name,
     type: Allure::ContentType::PNG, 
-    source: File.open(temp_shot),
+    source: File.open(temp_shot)
   )
 end
+
+
