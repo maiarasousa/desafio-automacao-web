@@ -1,9 +1,8 @@
 class PaginaPrincipal
-    include Capybara::DSL
+  include Capybara::DSL
 
-    def load
-        visit "https://marcelodebittencourt.com/demoprestashop/"
-    end
+  def load
+    visit "https://marcelodebittencourt.com/demoprestashop/"
+  end
 
-    
 end
