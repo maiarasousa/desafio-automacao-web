@@ -4,5 +4,4 @@ class PaginaPrincipal
   def load
     visit "https://marcelodebittencourt.com/demoprestashop/"
   end
-
 end
