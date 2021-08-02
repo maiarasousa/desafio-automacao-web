@@ -1,8 +1,8 @@
-Dado('que faço uma pesquisa do {string}') do |produto|
+Dado('que faço uma pesquisa do produto: {string}') do |produto|
   @pesquisa.busca(produto)
 end
 
-Dado('escolho um item da lista de resultados') do
+Dado('escolho o primeiro item da lista de resultados') do
   @produto1= @pesquisa.comprar_produto
 end
 
@@ -13,3 +13,5 @@ end
 Então('valido o resultado do {string}') do |produto|
   @resultados.resultado(produto)
 end
+
+

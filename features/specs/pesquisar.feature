@@ -4,7 +4,7 @@
 Funcionalidade: Pesquisar produto
   Sendo um usuário
   Quero realizar uma busca de produtos
-  Para que possa ver o resultado retornado
+  Para que possa ver os produtos da loja
 
   Contexto: Estar na páigna principal
     * que acesso a pagina inicial
@@ -12,7 +12,7 @@ Funcionalidade: Pesquisar produto
   @maiara_sousa
   @pesquisar_produtos_categorias_diferentes
   Esquema do Cenario: Pesquisar produtos de categorias diferentes
-    Dado que faço uma pesquisa do "<produto>"
+    Dado que faço uma pesquisa do produto: "<produto>"
     Quando sou redirecionado para lista de resultados
     Então valido o resultado do "<produto>"
 

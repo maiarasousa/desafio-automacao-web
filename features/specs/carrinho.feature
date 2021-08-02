@@ -1,4 +1,4 @@
-#language : pt
+#language:pt
 
 @carrinho_compras
 Funcionalidade: Carrinho de compras
@@ -12,8 +12,8 @@ Funcionalidade: Carrinho de compras
   @maiara_sousa
   @adicionar_multiplos_produtos_carrinho
   Cenario: Adicionar multiplos produtos no carrinho
-    Dado que faço uma pesquisa do "notebook"
-    E escolho um item da lista de resultados
-    Quando confirmo o produto para o carrinho
-    E escolho outro produto "poster" na lista de resultados
+    Dado que faço uma pesquisa do produto: "notebook"
+    E escolho o primeiro item da lista de resultados
+    Quando confirmo a adicao do produto para o carrinho
+    E escolho outro produto "the best" para o carrinho
     Então valido que os produtos foram adicionados com sucesso
