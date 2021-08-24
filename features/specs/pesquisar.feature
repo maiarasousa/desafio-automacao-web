@@ -6,7 +6,7 @@ Funcionalidade: Pesquisar produto
   Quero realizar uma busca de produtos
   Para que possa ver os produtos da loja
 
-  Contexto: Estar na páigna principal
+  Contexto: Estar na página principal
     * que acesso a pagina inicial
 
   @maiara_sousa
