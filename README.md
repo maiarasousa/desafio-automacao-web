@@ -10,7 +10,7 @@
 </ul>
 
 <h2>Pré-Requistos </h2>
-<p align="left"> Para utilizar esse projeto, é imprescindivel que você clone o projeto <b>projeto-smarkio-web</b>. Com a seguinte estrutura : </p>
+<p align="left"> Para utilizar esse projeto, é imprescindivel que você clone o projeto <b>desafio-automacao-web</b>. Com a seguinte estrutura : </p>
 
 <ul>
   <li>projeto-smarkio-web</li>
