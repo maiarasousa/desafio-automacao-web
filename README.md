@@ -13,7 +13,7 @@
 <p align="left"> Para utilizar esse projeto, é imprescindivel que você clone o projeto <b>desafio-automacao-web</b>. Com a seguinte estrutura : </p>
 
 <ul>
-  <li>projeto-smarkio-web</li>
+  <li>desafio-automacao-web</li>
   <li>features</li>
   <li>.gitignore</li>
   <li>Gemfile</li>
