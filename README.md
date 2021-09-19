@@ -1,4 +1,4 @@
-# Teste Técinco de Automação WEB
+# Teste Técnico de Automação WEB
 <p align="left">O objetivo desse projeto é a realização de um teste automizado que faça o fluxo de ponta a ponta de um cliente.</p>
 
 <h2>Técnologias Utilizadas</h2>
